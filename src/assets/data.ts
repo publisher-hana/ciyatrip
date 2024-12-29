@@ -98,31 +98,31 @@ export const booking = [
   {
     id: 1,
     day: "Day1 : male - South Males Atoll",
-    img: "../images/trip/details/14.jpg",
+    img: "/ciyatrip/images/trip/details/14.jpg",
     desc: "Introspection is the trick. Understand what you want, why you want it and what it will do for you. This is a critical factor, and as such, is probably the most difficult step. For this reason, most people never complete this aspect – then wonder why life is so difficult!",
   },
   {
     id: 2,
     day: "Day2 : male - South Males Atoll",
-    img: "../images/trip/details/15.jpg",
+    img: "/ciyatrip/images/trip/details/15.jpg",
     desc: "Introspection is the trick. Understand what you want, why you want it and what it will do for you. This is a critical factor, and as such, is probably the most difficult step. For this reason, most people never complete this aspect – then wonder why life is so difficult!",
   },
   {
     id: 3,
     day: "Day3 : male - South Males Atoll",
-    img: "../images/trip/details/16.jpg",
+    img: "/ciyatrip/images/trip/details/16.jpg",
     desc: "Introspection is the trick. Understand what you want, why you want it and what it will do for you. This is a critical factor, and as such, is probably the most difficult step. For this reason, most people never complete this aspect – then wonder why life is so difficult!",
   },
   {
     id: 4,
     day: "Day4 : male - South Males Atoll",
-    img: "../images/trip/details/17.jpg",
+    img: "/ciyatrip/images/trip/details/17.jpg",
     desc: "Introspection is the trick. Understand what you want, why you want it and what it will do for you. This is a critical factor, and as such, is probably the most difficult step. For this reason, most people never complete this aspect – then wonder why life is so difficult!",
   },
   {
     id: 5,
     day: "Day5 : male - South Males Atoll",
-    img: "../images/trip/details/18.jpg",
+    img: "/ciyatrip/images/trip/details/18.jpg",
     desc: "Introspection is the trick. Understand what you want, why you want it and what it will do for you. This is a critical factor, and as such, is probably the most difficult step. For this reason, most people never complete this aspect – then wonder why life is so difficult!",
   },
 ];
