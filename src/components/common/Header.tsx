@@ -29,7 +29,7 @@ const NavLinks: React.FC<NavLinkProps> = ({path, url, onClick}) =>{
 const Logo = () =>{
   return(
     <NavLink to="/" className='logo'>
-      <img src='../images/common/logo.png' alt='logo' />
+      <img src='/ciyatrip/images/common/logo.png' alt='logo' />
     </NavLink>
   )
 }
