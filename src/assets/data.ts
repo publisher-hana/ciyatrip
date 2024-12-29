@@ -12,11 +12,11 @@ export const flag2 = "https://themes.potenzaglobalsolutions.com/html/ciyatrip/im
 export const flag3 = "https://themes.potenzaglobalsolutions.com/html/ciyatrip/images/country-flags/03.jpg";
 export const flag4 = "https://themes.potenzaglobalsolutions.com/html/ciyatrip/images/country-flags/04.jpg";
 export const flag5 = "https://themes.potenzaglobalsolutions.com/html/ciyatrip/images/country-flags/05.jpg";
-export const gallary1 = "../images/gallary/09.jpg";
-export const gallary2 = "../images/gallary/10.jpg";
-export const gallary3 = "../images/gallary/11.jpg";
-export const gallary4 = "../images/gallary/12.jpg";
-export const gallary5 = "../images/gallary/13.jpg";
+export const gallary1 = "/ciyatrip/images/gallary/09.jpg";
+export const gallary2 = "/ciyatrip/images/gallary/10.jpg";
+export const gallary3 = "/ciyatrip/images/gallary/11.jpg";
+export const gallary4 = "/ciyatrip/images/gallary/12.jpg";
+export const gallary5 = "/ciyatrip/images/gallary/13.jpg";
 export const avatar = "https://themes.potenzaglobalsolutions.com/html/ciyatrip/images/listing-brand/01.png";
 
 export const trips = [
