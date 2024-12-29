@@ -8,7 +8,6 @@ import { options, Value } from "../../utils";
 
 export const Hero = () => {
   const [value, onChange] = useState<Value>(new Date());
-  const className="w-7 h-7 rounded-full object-cover transition-transform duration-300 ease-in-out hover:scale-110 cursor-pointer";
   return (
     <>
       <section className="hero relative mt-20 lg:h-[700px]">

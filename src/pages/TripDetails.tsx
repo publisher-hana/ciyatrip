@@ -5,7 +5,6 @@ import { RxCalendar } from "react-icons/rx";
 import { FaDownload, FaLocationDot, FaStar } from "react-icons/fa6";
 import React, { useState } from "react";
 import { IoBookmark, IoTimeOutline } from "react-icons/io5";
-import { MdOutlineModeComment } from "react-icons/md";
 import { FaMapMarkerAlt, FaShareAlt } from "react-icons/fa";
 import { TbMessageReportFilled } from "react-icons/tb";
 import { TitleDetails, TitleDetails2 } from "../components/common/Title";

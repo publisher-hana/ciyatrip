@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { dots } from "../../assets/data";
-import { FaMapMarkedAlt, FaMapMarkerAlt } from "react-icons/fa";
+import { FaMapMarkerAlt } from "react-icons/fa";
 import { Title, TitleDetails2 } from "../../components/common/Title";
 
 interface Dot {
