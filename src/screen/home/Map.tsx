@@ -21,7 +21,7 @@ export const Map: React.FC = () => {
             <Title text="Let's plan the trip of your dreams" title1="Your" title2="Tour Plan"  page={true}/>
           </div>
           <div className="relative my-10">
-            <img src="../images/map.png" alt="" className="w-full" />
+            <img src="/ciyatrip/images/map.png" alt="" className="w-full" />
               {dots.map((dot,index)=>(
               <button 
                 className="dot absolute cursor-pointer" 
