@@ -1,5 +1,6 @@
 {
   "homepage": "https://publisher-hana.github.io/ciyatrip",
+  "name": "ciyatrip",
   "private": true,
   "version": "0.0.0",
   "type": "module",
