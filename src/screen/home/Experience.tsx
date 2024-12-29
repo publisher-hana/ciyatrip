@@ -9,7 +9,7 @@ export const Experience = () => {
         <div className="containers">
           <div className="content flex justify-between mt-10 flex-wrap lg:flex-nowrap">
             <div className="lg:w-1/2 w-full">
-              <img src="../images/Experience.png" alt="Experience" />
+              <img src="/ciyatrip/images/Experience.png" alt="Experience" />
             </div>
             <div className="lg:w-1/2 w-full">
               <Title text="A Smiling Agent for you" title1="The Smiling" title2="Agent For Travel" page={true}/>

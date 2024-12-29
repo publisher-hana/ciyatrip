@@ -23,7 +23,7 @@ export const trips = [
   {
     id: 1,
     flag: flag0,
-    image: "../images/trip/01.jpg",
+    image: "/ciyatrip/images/trip/01.jpg",
     country: "Tokyo",
     address: "17-4, Kaminarimon 2-chome, Taito-ku, Tokyo",
     price: "$899",
@@ -35,7 +35,7 @@ export const trips = [
   {
     id: 2,
     flag: flag2,
-    image: "../images/trip/02.jpg",
+    image: "/ciyatrip/images/trip/02.jpg",
     country: "United Kingdom",
     address: "19 The Lindens, Grantham, England, United Kingdom",
     price: "$550",
@@ -47,7 +47,7 @@ export const trips = [
   {
     id: 3,
     flag: flag3,
-    image: "../images/trip/03.jpg",
+    image: "/ciyatrip/images/trip/03.jpg",
     country: "Rio",
     address: "Rua Americo Piola, 13- Horto Santo Antonio, Rio de Janeiro, SP, Brasil",
     price: "$399",
@@ -59,7 +59,7 @@ export const trips = [
   {
     id: 4,
     flag: flag4,
-    image: "../images/trip/04.jpg",
+    image: "/ciyatrip/images/trip/04.jpg",
     country: "Marsella",
     address: "25 Place De L Eglise, Marseille, France",
     price: "$970",
@@ -71,7 +71,7 @@ export const trips = [
   {
     id: 5,
     flag: flag5,
-    image: "../images/trip/05.jpg",
+    image: "/ciyatrip/images/trip/05.jpg",
     country: "United States",
     address: "29 Cambridge Drive, Atwater, CA, 95301, United States",
     price: "$700",
@@ -83,7 +83,7 @@ export const trips = [
   {
     id: 6,
     flag: flag1,
-    image: "../images/trip/06.jpg",
+    image: "/ciyatrip/images/trip/06.jpg",
     country: "India",
     address: "44 Kotkar Mandal Estate, Off Are Road Goregaon, Mumbai, 400063, India",
     price: "$850",
@@ -128,12 +128,12 @@ export const booking = [
 ];
 
 export const dots = [
-  { top: "30%", left: "18%", image: "../images/trip/01.jpg", country: "Canada", info: "Beautiful city" },
-  { top: "55%", left: "53%", image: "../images/trip/02.jpg", country: "Africa", info: "Scenic mountain" },
-  { top: "70%", left: "31%", image: "../images/trip/05.jpg", country: "Brazil", info: "Stunning mountain" },
-  { top: "48%", left: "70%", image: "../images/trip/06.jpg", country: "India", info: "Stunning View" },
-  { top: "75%", left: "85%", image: "../images/trip/04.jpg", country: "Australia", info: "Stunning beach" },
-  { top: "35%", left: "75%", image: "../images/trip/03.jpg", country: "China", info: "Beautiful leka" },
+  { top: "30%", left: "18%", image: "/ciyatrip/images/trip/01.jpg", country: "Canada", info: "Beautiful city" },
+  { top: "55%", left: "53%", image: "/ciyatrip/images/trip/02.jpg", country: "Africa", info: "Scenic mountain" },
+  { top: "70%", left: "31%", image: "/ciyatrip/images/trip/05.jpg", country: "Brazil", info: "Stunning mountain" },
+  { top: "48%", left: "70%", image: "/ciyatrip/images/trip/06.jpg", country: "India", info: "Stunning View" },
+  { top: "75%", left: "85%", image: "/ciyatrip/images/trip/04.jpg", country: "Australia", info: "Stunning beach" },
+  { top: "35%", left: "75%", image: "/ciyatrip/images/trip/03.jpg", country: "China", info: "Beautiful leka" },
 ];
 
 export const quickLinks = [

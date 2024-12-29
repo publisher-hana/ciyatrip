@@ -12,7 +12,7 @@ export const Hero = () => {
     <>
       <section className="hero relative mt-20 lg:h-[700px]">
         <div className="absolute top-0 left-0 overflow-hidden">
-          <img src="../images/banner1.jpg" alt="img" className="w-full h-full object-cover animate-scale" />
+          <img src="/ciyatrip/images/banner1.jpg" alt="img" className="w-full h-full object-cover animate-scale" />
         </div>
         <div className="containers relative lg:pt-60 md:pt-40 pt-20"> 
           <h1 className="lg:text-[90px] text-4xl font-semibold text-white leading-snug">LET'S</h1>
