@@ -31,7 +31,7 @@ export const TripCard: React.FC<TripCardProps> = ({ item }) => {
             <h3 className="text-xl font-semibold">{item.country}</h3>
             <img src={item.flag} alt=""></img>
           </div>
-          <div className="flexc gap-2 mt-4 text-gray-400">
+          <div className="flexc gap-2 mt-4 text-gray-400 h-[20px]">
             <FaLocationDot size={20} className="text-gray-500" />
             <span className="text-sm">{item.address.slice(0,43)}...</span>
           </div>
@@ -51,11 +51,11 @@ export const TripCard: React.FC<TripCardProps> = ({ item }) => {
               <span className="text-xl font-semibold text-black">{item.price}</span>
             </div>
           </div>
-          <div className="flex gap-3 mt-4">
+          <div className="flex gap-3 mt-4 h-[50px]">
             <img src={item.avatar} className="w-10 h-10 rounded-full" alt="" />
             <p className="text-sm">{item.desc}</p>
           </div>
-          <NavLink to={`/datalist/${item.id}`} className="underline text-sm text-gray-400 mt-6 block">
+          <NavLink to={`/datalist/${item.id}`} className="text-sm mt-6 block primary-btn text-center hover:bg-black transition duration-300 ">
             See Details
           </NavLink>
         </div>

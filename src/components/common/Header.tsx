@@ -55,8 +55,6 @@ const AccountButtons = () => {
         <span className='w-4 h-4 bg-primary absolute -top-1 -right-2 text-white flex justify-center items-center rounded-full text-xs'>0</span>
       </button>
       <IoIosSearch size={25} />
-      <button className='primary-btn'>Book Now</button>
-      
     </div>
   )
 }

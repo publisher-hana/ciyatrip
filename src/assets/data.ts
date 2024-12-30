@@ -3,7 +3,7 @@ export const NavLists = [
   { id: 3, url: "tour", path: "/tour" },
   { id: 6, url: "destination", path: "/destination" },
   { id: 4, url: "blog", path: "/blog" },
-  { id: 5, url: "contact", path: "/contact" },
+  { id: 5, url: "shop", path: "/shop" },
 ];
 export const paper = "https://themes.potenzaglobalsolutions.com/html/ciyatrip/images/title-icon.png";
 export const flag0 = "https://themes.potenzaglobalsolutions.com/html/ciyatrip/images/country-flags/01.jpg";
@@ -93,7 +93,80 @@ export const trips = [
     rating: "4.3 / 5",
   },
 ];
-
+export const destination = [
+  {
+    id: 1,
+    image: "/ciyatrip/images/destination/01.jpg",
+    country: "Italy",
+    mapIco: "/ciyatrip/images/destination/map-01.png",
+  },
+  {
+    id: 2,
+    image: "/ciyatrip/images/destination/02.jpg",
+    country: "German",
+    mapIco: "/ciyatrip/images/destination/map-02.png",
+  },
+  {
+    id: 3,
+    image: "/ciyatrip/images/destination/03.jpg",
+    country: "France",
+    mapIco: "/ciyatrip/images/destination/map-03.png",
+  },
+  {
+    id: 4,
+    image: "/ciyatrip/images/destination/04.jpg",
+    country: "India",
+    mapIco: "/ciyatrip/images/destination/map-04.png",
+  },
+  {
+    id: 5,
+    image: "/ciyatrip/images/destination/05.jpg",
+    country: "Brasil",
+    mapIco: "/ciyatrip/images/destination/map-05.png",
+  },
+  {
+    id: 6,
+    image: "/ciyatrip/images/destination/06.jpg",
+    country: "Australia",
+    mapIco: "/ciyatrip/images/destination/map-06.png",
+  },
+  {
+    id: 7,
+    image: "/ciyatrip/images/destination/19.jpg",
+    country: "Rome",
+    mapIco: "/ciyatrip/images/destination/map-07.png",
+  },
+  {
+    id: 8,
+    image: "/ciyatrip/images/destination/20.jpg",
+    country: "Dubai",
+    mapIco: "/ciyatrip/images/destination/map-08.png",
+  },
+  {
+    id: 9,
+    image: "/ciyatrip/images/destination/21.jpg",
+    country: "Tahiti",
+    mapIco: "/ciyatrip/images/destination/map-09.png",
+  },
+  {
+    id: 10,
+    image: "/ciyatrip/images/destination/22.jpg",
+    country: "Cancun",
+    mapIco: "/ciyatrip/images/destination/map-10.png",
+  },
+  {
+    id: 11,
+    image: "/ciyatrip/images/destination/23.jpg",
+    country: "South Island",
+    mapIco: "/ciyatrip/images/destination/map-11.png",
+  },
+  {
+    id: 12,
+    image: "/ciyatrip/images/destination/24.jpg",
+    country: "Maui",
+    mapIco: "/ciyatrip/images/destination/map-12.png",
+  },
+]
 export const booking = [
   {
     id: 1,

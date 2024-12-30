@@ -1,11 +1,16 @@
-import { Trips } from '../utils/Route'
-
-const Tour = () => {
+import { PageLayout, Trips } from '../utils/Route'
+const titleProps = {
+  text: "Tour List",
+  title1: "",
+  title2: "Tour List",
+  page: false,
+};
+export const Tour = () => {
   return (
     <>
-      <Trips />
+     <PageLayout titleProps={titleProps}>
+        <Trips />
+      </PageLayout>
     </>
   )
 }
-
-export default Tour

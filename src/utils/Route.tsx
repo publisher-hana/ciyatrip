@@ -12,3 +12,12 @@ export { Header } from "../components/common/Header";
 export { Home } from "../pages/Home";
 export { Hero } from "../screen/home/Hero";
 export { NavLists } from "../assets/data";
+export { Tour } from "../pages/Tour";
+export { Destination } from "../pages/Destination";
+export { Blog } from "../pages/Blog";
+export {PageLayout} from '../components/common/PageLayout'
+export { SearchCard } from "../components/card/SearchCard";
+export { CategoriesCard } from "../components/card/CategoriesCard";
+export { SubsribesCard } from "../components/card/SubsribesCard";
+export { TagsCard } from "../components/card/TagsCard";
+export { Shop } from "../pages/Shop";

@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { booking, gallary1, gallary2, gallary3, gallary4, gallary5, trips } from "../assets/data";
-import { Progress, Title } from "../utils/Route";
+import { PageLayout, Progress, Title } from "../utils/Route";
 import { RxCalendar } from "react-icons/rx";
 import { FaDownload, FaLocationDot, FaStar } from "react-icons/fa6";
 import React, { useState } from "react";
@@ -40,78 +40,72 @@ export const TripDetails = () => {
   if (!trip) {
     return <p>Trip not found</p>;
   }
+  const titleProps = {
+    text: "Tour Details",
+    title1: "",
+    title2: "Tour Details",
+    page: false,
+  };
 
   return (
     <>
-      <section className="mt-20">
-        <div className="img h-[50vh] relative">
-          <div className="absolute top-0 left-0 w-full h-[50vh] bg-[rgba(16,38,54,.6)]"></div>
-          <img src="/ciyatrip/images/back.jpg" alt="" className="w-full h-full object-cover" />
-          <div className="absolute lef-0 bottom-0 w-full h-10">
-            <img src="/ciyatrip/images/back2.png" alt="" className="w-full h-full object-cover" />
+      <PageLayout titleProps={titleProps}>
+        <div className="content my-60">
+          <div className="flexc justify-between">
+            <h3 className="text-3xl font-semibold">{trip.country}</h3>
+            <img src={trip.flag} alt="" />
+          </div>
+          <div className="flexc justify-between mt-6 text-gray-400 border-t border-b border-gray-200 py-3 lg:flex-nowrap flex-wrap">
+            <div className="flexc gap-5 lg:flex-nowrap flex-wrap">
+              <div className="flex gap-3">
+                <RxCalendar size={20} className="text-gray-500" />
+                <span className="text-md">Day</span>
+              </div>
+              <div className="flexc gap-2">
+                <FaStar size={20} className="text-yellow-500" />
+                <span className="text-md">{trip.rating}</span>
+              </div>
+              <div className="flexc gap-2 my-4 text-gray-400">
+                <FaLocationDot size={20} className="text-gray-500" />
+                <span className="text-sm">{trip.address}</span>
+              </div>
+            </div>
+            <div className="flexc gap-5">
+              <div className="flexc gap-2"> 
+                <span className="text-md line-through">{trip.discount}</span>
+                <span className="text-xl font-semibold text-black">{trip.price}</span>
+              </div>
+              <button className="primary-btn flexc gap-2">
+                <RiVerifiedBadgeFill size={20} />
+                Verified tour
+              </button>
+            </div>
+          </div> 
+          <div className="flex justify-between flex-wrap lg:flex-nowrap gap-5 mt-5">
+            <div className="lg:w-2/3 w-full">
+              <div className="buttons flexc gap-5 flex-wrap lg:flex-nowrap">
+                <Button text="Save" icon={<FaDownload size={15}/>} />
+                <Button text="Bookmark" icon={<IoBookmark size={15}/>} />
+                {/* <Button text="Write a review" icon={<MdOutlineModeComment size={15}/>} /> */}
+                <Button text="Share" icon={<FaShareAlt size={15}/>} />
+                <Button text="Report" icon={<TbMessageReportFilled size={15}/>} />
+              </div>
+              <TripImg img={trip.image} desc={trip.desc} />
+              <TripRating rating ={trip.rating} />
+              <TripBooking />
+              <TripGallary />
+              <TripMap />
+              <TripReview />
+            </div>
+            <div className="lg:w-1/3 w-full">
+              <TripBookingForm />
+              <TripPriceSlider />
+              <TripLocation />
+              <TripForm />
+            </div>
           </div>
         </div>
-        <div className="containers">
-          <div className="heading -mt-72 relative z-20">
-            <Title text="Tour Details" title1="" title2="Tour Details" page={false} />
-          </div>
-          <div className="content my-60">
-            <div className="flexc justify-between">
-              <h3 className="text-3xl font-semibold">{trip.country}</h3>
-              <img src={trip.flag} alt="" />
-            </div>
-            <div className="flexc justify-between mt-6 text-gray-400 border-t border-b border-gray-200 py-3 lg:flex-nowrap flex-wrap">
-              <div className="flexc gap-5 lg:flex-nowrap flex-wrap">
-                <div className="flex gap-3">
-                  <RxCalendar size={20} className="text-gray-500" />
-                  <span className="text-md">Day</span>
-                </div>
-                <div className="flexc gap-2">
-                  <FaStar size={20} className="text-yellow-500" />
-                  <span className="text-md">{trip.rating}</span>
-                </div>
-                <div className="flexc gap-2 my-4 text-gray-400">
-                  <FaLocationDot size={20} className="text-gray-500" />
-                  <span className="text-sm">{trip.address}</span>
-                </div>
-              </div>
-              <div className="flexc gap-5">
-                <div className="flexc gap-2"> 
-                  <span className="text-md line-through">{trip.discount}</span>
-                  <span className="text-xl font-semibold text-black">{trip.price}</span>
-                </div>
-                <button className="primary-btn flexc gap-2">
-                  <RiVerifiedBadgeFill size={20} />
-                  Verified tour
-                </button>
-              </div>
-            </div> 
-            <div className="flex justify-between flex-wrap lg:flex-nowrap gap-5 mt-5">
-              <div className="lg:w-2/3 w-full">
-                <div className="buttons flexc gap-5 flex-wrap lg:flex-nowrap">
-                  <Button text="Save" icon={<FaDownload size={15}/>} />
-                  <Button text="Bookmark" icon={<IoBookmark size={15}/>} />
-                  {/* <Button text="Write a review" icon={<MdOutlineModeComment size={15}/>} /> */}
-                  <Button text="Share" icon={<FaShareAlt size={15}/>} />
-                  <Button text="Report" icon={<TbMessageReportFilled size={15}/>} />
-                </div>
-                <TripImg img={trip.image} desc={trip.desc} />
-                <TripRating rating ={trip.rating} />
-                <TripBooking />
-                <TripGallary />
-                <TripMap />
-                <TripReview />
-              </div>
-              <div className="lg:w-1/3 w-full">
-                <TripBookingForm />
-                <TripPriceSlider />
-                <TripLocation />
-                <TripForm />
-              </div>
-            </div>
-          </div>
-        </div>`
-      </section>`
+      </PageLayout>
     </>
   );
 };

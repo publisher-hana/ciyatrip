@@ -1,7 +1,8 @@
 import React from "react";
 import { paper } from "../../assets/data";
+import { NavLink } from "react-router-dom";
 
-interface TitleProps {
+export interface TitleProps {
   title1: string;
   title2: string;
   text: string;
@@ -24,22 +25,27 @@ export const Title: React.FC<TitleProps> = ({ title1, title2, text, page }) => {
             <div className="bg-primary h-6 w-1"></div>
             <span className="uppercase text-md text-slate-400">{text}</span>
           </div>
-          <h1 className="lg:text-4xl text-xl flex gap-3 mt-4">
-            {title1}
+          <div className="lg:text-4xl text-xl mt-4 flex items-center gap-3">
+            <h1>
+              {title1}
+            </h1>
             <h2 className="font-semibold"> {title2}</h2>
-          </h1>
+          </div>
         </>
       ) : (
         <>
           <div className="flex items-center gap-4">
             <img src={paper} alt="" />
             <div className="bg-primary h-6 w-1"></div>
-            <span className="uppercase text-md text-gray-200">{text}</span>
+             <NavLink to="/" className="text-md uppercase text-white">HOME<span className="ml-4">/</span></NavLink>
+            <span className="uppercase text-md text-primary">{text}</span>
           </div>
-          <h1 className="text-4xl flex gap-3 mt-4">
-            {title1}
+          <div className="text-4xl flex gap-3 items-center mt-4">
+            <h1 className="">
+              {title1}
+            </h1>
             <h2 className="font-semibold text-white"> {title2}</h2>
-          </h1>
+          </div>
         </>
       )}
     </>
