@@ -15,7 +15,7 @@ export const Experience = () => {
               <Title text="A Smiling Agent for you" title1="The Smiling" title2="Agent For Travel" page={true}/>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 py-8">
                 {trips.slice(0,2).map((item) =>(
-                  <div className="box rounded-x1 bg-white shadow-s2 flex gap-2">
+                  <div className="box rounded-x1 bg-white shadow-s2 flex gap-2" key={item.id}>
                       <div className="h-32 lg:w-56 w-32">
                         <img src={item.image} alt="" className="w-full h-full object-cover rounded-xl" />
                       </div>

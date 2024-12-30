@@ -4,7 +4,7 @@ import { TitleDetails2 } from "../common/Title";
 import { SlSocialInstagram } from "react-icons/sl";
 
 export const SubsribesCard = () => {
-   const className="mt-2 p-2 border-[1px] border-solid border-gray-200 flex items-center"
+   const className="mt-2 p-2 border border-slate-300 flex items-center"
     return(
       <>
       <Card>

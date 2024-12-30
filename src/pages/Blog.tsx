@@ -133,7 +133,7 @@ export const Posts:React.FC<PostPorps> = ({title,  gridCol = "grid-cols-2", flex
   return(
     <>
         <TitleDetails2 title={title}/>
-        <ul className={`grid ${gridCol} gap-6 my-8 ${postmeta !== "justDate" && "pb-10 border-b-[1px] border-solid border-[#ccc]"}`}>
+        <ul className={`grid ${gridCol} gap-6 my-8 ${postmeta !== "justDate" && "pb-10 border-b border-slate-400"}`}>
           { 
             limitedPostData.map((item) => (
             <li key={item.id} className={`flex ${flexDir} gap-4`}>
@@ -170,7 +170,7 @@ export const CommentBox:React.FC<CommentProps> = ({className, img, name, text}) 
     <>
       <div className={`flex gap-4 mt-6 ${className}`}>
         <figure className="w-[80px] h-[80px]"><img src={img} className="rounded-lg object-cover"></img></figure>
-        <div className="border-[1px] border-solid border-gray-200 p-2 w-full">
+        <div className="border border-slate-300 rounded-md p-2 w-full">
           <em className="font-semibold">{name}</em>
           <p className="py-4">{text}</p>
           <button className="underline">Replay</button>

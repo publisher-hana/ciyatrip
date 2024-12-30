@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { booking, gallary1, gallary2, gallary3, gallary4, gallary5, trips } from "../assets/data";
-import { PageLayout, Progress, Title } from "../utils/Route";
+import { PageLayout, Progress } from "../utils/Route";
 import { RxCalendar } from "react-icons/rx";
 import { FaDownload, FaLocationDot, FaStar } from "react-icons/fa6";
 import React, { useState } from "react";

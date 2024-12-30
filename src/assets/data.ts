@@ -236,3 +236,38 @@ export const quickLinks = [
     links: [{ name: "17504 Carlton Cuevas Rd, Gulfport, MS, 39503" }, { name: "+(704) 279-1249" }, { name: "letstalk@Ciyatrip.com" }],
   },
 ];
+
+export const products  = [
+  {
+    id: 1,
+    img: "/ciyatrip/images/product/01.jpg",
+    title: "Stylish Lunch Bag for Women/Mens",
+    rating: 3.5,
+    originPrice:"$24.80",
+    price:"$12.80"
+  },
+  {
+    id: 2,
+    img: "/ciyatrip/images/product/02.jpg",
+    title: "adidas Men's Superlite Relaxed Fit Performance Hat",
+    rating: 4.5,
+    originPrice:"$20.00",
+    price:"$15.00"
+  },
+  {
+    id: 3,
+    img: "/ciyatrip/images/product/03.jpg",
+    title: "Shoulder Weekender Overnight Bag for Women",
+    rating: 5,
+    originPrice:"$20.49",
+    price:"$12.49"
+  },
+  {
+    id: 4,
+    img: "/ciyatrip/images/product/04.jpg",
+    title: "Nilkamal Novella Stainless Steel Leg",
+    rating: 3.5,
+    originPrice:"$20.49",
+    price:"$12.49"
+  },
+]

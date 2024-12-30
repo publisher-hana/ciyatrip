@@ -2,7 +2,7 @@ import { Card } from "../common/Compoent";
 import { TitleDetails2 } from "../common/Title";
 
 export const TagsCard = () => {
-  const className="m-1 p-2 border-[1px] border-solid border-gray-200"
+  const className="m-1 p-2 border border-slate-300"
   return(
     <>
       <Card>

@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom";
 import { PageLayout, Title } from "../utils/Route";
 import "./destinations.css"
 import DestinationCard from "../components/card/DestinationCard";
