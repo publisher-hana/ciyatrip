@@ -23,8 +23,9 @@ export const TripCard: React.FC<TripCardProps> = ({ item }) => {
   return (
     <>
       <div className="box rounded-x1 shadow-s2 lg:w-4/12 md:w-6/12 px-2">
-        <div className="h-56">
-            <img src={item.image} alt="" className="w-full h-full rounded-t-xl" />
+        <div className="h-56 overflow-hidden">
+            <img src={item.image} alt="" className="w-full h-full rounded-t-xl hover:scale-110 scale-100 transition duration-[3s] object-cover" />
+
         </div>
         <div className="detail p-6">          
           <div className="flex justify-between">

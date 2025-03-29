@@ -110,8 +110,9 @@ export const BlogCont: React.FC<BlogProps> = ({title}) => {
   )
 }
 
+
 export const AniFigure:React.FC<FigureProps> = ({img, className, style }) =>{
-  return <> <figure className="overflow-hidden shrink-0"><img src={img} alt="" className={`hover:scale-110 scale-100 transition duration-[6s] object-cover ${className}`} style={style} /></figure></>
+  return <> <figure className="overflow-hidden shrink-0"><img src={img} alt="" className={`hover:scale-110 scale-100 transition duration-[3s] object-cover ${className}`} style={style} /></figure></>
 }
 
 export const PostMeta:React.FC<MeatProps> = ({postmeta}) =>{
