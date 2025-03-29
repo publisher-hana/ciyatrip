@@ -1,6 +1,7 @@
 import { Blog, Destination, Home, Layout, Shop, Tour, TripDetails } from "./utils/Route";
 import { Route,  HashRouter as Router, Routes } from "react-router-dom";
 
+
 function App() {
   return (
     <Router>
